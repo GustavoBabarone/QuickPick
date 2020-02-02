@@ -1,0 +1,25 @@
+body{
+	background-color: #f2f2f2;
+}
+
+#tudo{
+	background-color: white;
+	border: solid 2px #5691FC;
+	-webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+}
+
+.form-control{
+	margin-top: 10px;
+}
+
+textarea{
+	resize: none;
+}
+
+button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

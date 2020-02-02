@@ -1,0 +1,181 @@
+.cadastro {   
+    padding: 15px;
+    background: white;
+    background-color: #f2f2f2 !important;
+}
+ body{
+ 	background-color: #f2f2f2 !important;
+ }
+
+.teste { 
+	margin: 60px !important;
+    background: white;
+    overflow: hidden;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px -1px 10px 1px rgba(79,79,79,1);
+	-moz-box-shadow: 0px -1px 10px 1px rgba(79,79,79,1);
+	box-shadow: 0px -1px 10px 1px rgba(79,79,79,1);
+	 border: solid 2px #5691FC;
+}
+
+.formulario input[type="text"], input[type="email"], input[type="password"] {   
+    position: relative;
+    border-width: 1.2px;
+    border-color: #17A2B8;
+    background-repeat: no-repeat;
+    background-position: 3%;
+    margin-top: 10px;
+    padding-left: 12%;
+}
+
+.formulario input[type="text"]:nth-child(4),.formulario input[type="text"]:nth-child(5),.formulario input[type="text"]:nth-child(6) {
+	background-position: 2%;
+}
+
+
+.formulario input[type="email"], input[type="password"] {    
+    position: relative; 
+    border-width: 1.2px;
+    border-color: #17A2B8;    
+    background-repeat: no-repeat;
+    background-position: 3%;
+}
+
+.formulario input[type="email"], input[type="password"], input[type="text"] { 
+	height: 45px;
+}
+input[type="text"]::placeholder,input[type="email"]::placeholder,input[type="password"]::placeholder {
+    color: #505050;
+  }
+
+.user {
+    font-size: 35px;
+    text-align: center;
+    color: #5691FC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    margin-top: 30px;
+}
+
+.custom-control-label {
+    color: #5691FC;    
+}
+
+#f2{
+	display: block;
+	text-align: center;
+}
+
+#f1{
+	display: none;
+	text-align: center;
+}
+
+#cbxEscolha{
+	width: 100%;
+	height: 45px;
+	border-width: 1.2px;
+    border-color: #17A2B8;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#cbxEscolha:focus{
+	box-shadow: 0 0 0 0;
+    border: solid 1px #17A2B8;
+    outline: 0;
+}
+
+#cadastrar{
+	margin-top: 0px !important;
+	margin-bottom: 15px;
+}
+
+#radioEscolha{
+	width: 40%;
+	margin-right: 30%;
+	margin-left: 30%;
+	justify-content: center;
+}
+
+#fretRadio{
+	margin-left: 8px;
+}
+
+#passoFrente{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#cadFret{
+	text-align: center;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#caminhaoTipo{
+	margin-bottom: 20px;
+}
+
+#passoTras{
+	margin-bottom: 20px;
+}
+
+/* --- PARTE DA DIREITA DA TELA DE CADASTRO --- */
+/* PARTE MAIOR (PARTE DA DIREITA GERAL)*/
+#sumir2{
+	/* background-color: red; */
+}
+
+/* DIV DA IMG CELULAR*/
+#imgPadrao{
+	padding: 0px !important;
+	background-color: green;
+	height: 100% !important;
+}
+
+/* ENTRE (IMG PADRAO E IMG CELULAR) */
+#col12{
+	padding: 0px !important;
+}
+
+/* <IMG> */
+#imagemCelular{
+	width: 100%;
+	height: 100%;
+	margin: 0px !important;
+}
+
+/* -- LINHA DAS IMAGENS DOS TIPOS DE CAMINHÃO -- */
+#rowImgSagrada{
+	/* background-color: yellow; */
+	height: 100%;
+}
+
+/* -- DIV DAS IMAGENS DOS TIPOS DE CAMINHÃO -- */
+#divImgSagrada{
+	width: 100%;
+	height: 100%;
+	padding: 0px !important;
+}
+
+#imgSAGRADA{
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+

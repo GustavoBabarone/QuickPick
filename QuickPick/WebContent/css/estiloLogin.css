@@ -1,0 +1,773 @@
+body{
+  background: #F2F2F2 !important;
+}
+.container{
+  margin-bottom: 20px;
+}
+@media (max-width: 575.98px) {
+  .login { 
+    width: 90%;
+      min-height: 70vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding: 0.4%;
+      background: #1E92FF;
+      margin: 0 auto;
+      -webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      margin-top: 16%;
+  }
+  
+  #teste {
+    width: 1170px;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+  }
+  
+  #limitador{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .formulario {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 65px 40px 65px;
+    -webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+  }
+  
+  #senha {
+    height: 55px;
+    position: relative; 
+    border-width: 1.0px;
+    border-color: #1E92FF;
+    outline: none;
+    background-image: url(images/key.png);
+    background-repeat: no-repeat;
+    background-position: 2%;
+    font-weight: bold;
+    padding-left: 20%;
+    margin: 30px auto;
+    margin-left: -15%;
+    width: 130%;
+    font: 14px sans-serif;
+  font-weight: bold;
+  }
+  
+  #senha::placeholder {
+    color: #1E92FF;
+  }
+  
+  #login {
+    height: 55px;
+    margin: 15px;
+    position: relative; 
+    border-width: 1.0px;
+    border-color: #1E92FF;
+    outline: none;
+    background-image: url(images/user.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    font-weight: bold;
+    padding-left: 20%;
+    margin: 0 auto;
+    margin-left: -15%;
+    width: 130%;
+    font: 14px sans-serif;
+  font-weight: bold;
+  }
+  
+  #login::placeholder {
+    color: #1E92FF;
+  }
+  
+  #logar {
+    width: 120%;
+    margin: 15px;
+    margin-left: -10%;
+    font: 14px sans-serif;
+     border: 0.5px solid #1E92FF;
+  	color: #1E92FF;
+    font-weight: bold;
+  }
+  
+  #logar:hover{
+	  color: #fff;
+	  background-color: #1E92FF;
+	}
+  
+  .cadas{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #cadastro {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .esque{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #esqueceu {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 7%;
+  }
+  
+  #imagem {
+    display: none;
+  }
+  
+  img {
+      margin-left: 20%;
+  }
+  
+  #cadastro:link {
+    color:#1E92FF;
+    font-weight: bold;
+    }
+    
+    #cadastro:hover  {
+      text-decoration: none; 
+      color: rgb(0, 98, 189);
+      
+      transition: 0.8s;
+    }
+    #esqueceu:link {
+      color:#1E92FF;
+      font-weight: bold;
+    }
+    
+    #esqueceu:hover  {
+      text-decoration: none; 
+      color: rgb(0, 98, 189);
+      
+      transition: 0.8s;
+    }
+    }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .login { 
+    width: 90%;
+      min-height: 80vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding: 0.4%;
+      background: #1E92FF;
+      margin: 0 auto;
+      -webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      margin-top: 14%;
+  }
+  
+  #teste {
+    width: 1170px;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+  }
+  
+  #limitador{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .formulario {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 65px 40px 65px;
+    -webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+  }
+  
+  #senha {
+    height: 55px;
+    position: relative; 
+    border-width: 1.0px;
+    border-color: #1E92FF;
+    outline: none;
+    background-image: url(images/key.png);
+    background-repeat: no-repeat;
+    background-position: 2%;
+    font-weight: bold;
+    padding-left: 20%;
+    margin: 30px auto;
+    margin-left: -15%;
+    width: 130%;
+    font: 14px sans-serif;
+  font-weight: bold;
+  }
+  
+  #senha::placeholder {
+    color: #1E92FF;
+  }
+  
+  #login {
+    height: 55px;
+    margin: 15px;
+    position: relative; 
+    border-width: 1.0px;
+    border-color: #1E92FF;
+    outline: none;
+    background-image: url(images/user.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    font-weight: bold;
+    padding-left: 20%;
+    margin: 0 auto;
+    margin-left: -15%;
+    width: 130%;
+    font: 14px sans-serif;
+  font-weight: bold;
+  }
+  
+  #login::placeholder {
+    color: #1E92FF;
+  }
+  
+  #logar {
+    width: 120%;
+    margin: 15px;
+    margin-left: -10%;
+    font: 14px sans-serif;
+     border: 0.5px solid #1E92FF;
+  	color: #1E92FF;
+    font-weight: bold;
+  }
+  
+  #logar:hover{
+	  color: #fff;
+	  background-color: #1E92FF;
+	}
+  
+  .cadas{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #cadastro {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .esque{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #esqueceu {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 7%;
+  }
+  #imagem {
+    display: none;
+  }
+  
+      img {
+      margin-left: 22%;
+  }
+  
+  #cadastro:link {
+    color:#1E92FF;
+    font-weight: bold;
+    }
+    
+    #cadastro:hover  {
+      text-decoration: none; 
+      color: rgb(0, 98, 189);
+      
+      transition: 0.8s;
+    }
+    #esqueceu:link {
+      color:#1E92FF;
+      font-weight: bold;
+    }
+    
+    #esqueceu:hover  {
+      text-decoration: none; 
+      color: rgb(0, 98, 189);
+      
+      transition: 0.8s;
+    }
+    }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .login { 
+    width: 75%;
+      min-height: 85vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding: 0.3%;
+      background: #1E92FF;
+      margin: 0 auto;
+      -webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      margin-top: 10%;
+  }
+  
+  #teste {
+    width: 1170px;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+  }
+  
+  #limitador{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .formulario {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 65px 40px 65px;
+    -webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+  }
+  
+  #senha {
+    height: 55px;
+    position: relative; 
+    border-width: 1.0px;
+    border-color: #1E92FF;
+    outline: none;
+    background-image: url(images/key.png);
+    background-repeat: no-repeat;
+    background-position: 2%;
+    font-weight: bold;
+    padding-left: 15%;
+    margin: 30px auto;
+    width: 120%;
+    margin-left: -10%;
+    font: 14px sans-serif;
+  font-weight: bold;
+  }
+  
+  #senha::placeholder {
+    color: #1E92FF;
+  }
+  
+  #login {
+    height: 55px;
+    margin: 15px;
+    position: relative; 
+    border-width: 1.0px;
+    border-color: #1E92FF;
+    outline: none;
+    background-image: url(images/user.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    font-weight: bold;
+    padding-left: 15%;
+    margin: 0 auto;
+    width: 120%;
+    margin-left: -10%;
+    font: 14px sans-serif;
+  font-weight: bold;
+  }
+  
+  #login::placeholder {
+    color: #1E92FF;
+  }
+  
+  #logar {
+    width: 110%;
+    margin: 15px;
+    margin-left: -19px;
+    font: 14px sans-serif;
+     border: 0.5px solid #1E92FF;
+  	color: #1E92FF;
+    font-weight: bold;
+  }
+  
+  #logar:hover{
+	  color: #fff;
+	  background-color: #1E92FF;
+	}
+  
+  .cadas{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #cadastro {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .esque{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #esqueceu {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 7%;
+  }
+  
+  #imagem {
+    display: none;
+  }
+  
+      img {
+      margin-left: 28%;
+      margin-top: 0%;
+  }
+  
+  #cadastro:link {
+    color:#1E92FF;
+    font-weight: bold;
+    }
+    
+    #cadastro:hover  {
+      text-decoration: none; 
+      color: rgb(0, 98, 189);
+      
+      transition: 0.8s;
+    }
+    #esqueceu:link {
+      color:#1E92FF;
+      font-weight: bold;
+    }
+    
+    #esqueceu:hover  {
+      text-decoration: none; 
+      color: rgb(0, 98, 189);
+      
+      transition: 0.8s;
+    }
+    }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .login { 
+    width: 100%;
+      min-height: 91vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding: 0.2%;
+      background-color: #1E92FF;
+      margin-top: 8%;
+      -webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+      box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+  }
+  
+  #teste {
+    width: 1170px;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+  }
+  
+  #limitador{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .formulario {
+    width: 55%;
+    overflow: hidden;
+    padding: 0px 65px 40px 65px;
+  }
+  
+  #senha {
+    height: 55px;
+    position: relative; 
+    border-width: 1.0px;
+    border-color: #1E92FF;
+    outline: none;
+    background-image: url(images/key.png);
+    background-repeat: no-repeat;
+    background-position: 2%;
+    font-weight: bold;
+    padding-left: 15%;
+    margin: 30px auto;
+    font: 14px sans-serif;
+  font-weight: bold;
+  }
+  
+  #senha::placeholder {
+    color: #1E92FF;
+  }
+  
+  #login {
+    height: 55px;
+    margin: 15px;
+    position: relative; 
+    border-width: 1.0px;
+    border-color: #1E92FF;
+    outline: none;
+    background-image: url(images/user.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    font-weight: bold;
+    padding-left: 15%;
+    margin: 0 auto;
+    font: 14px sans-serif;
+  font-weight: bold;
+    
+  }
+  
+  #login::placeholder {
+    color: #1E92FF;
+  }
+  
+  #logar {
+    width: 95%;
+    margin: 15px;
+    margin-left: 10px;
+    font: 14px sans-serif;
+    border: 0.5px solid #1E92FF;
+  	color: #1E92FF;
+    font-weight: bold;
+  }
+  
+  #logar:hover{
+	  color: #fff;
+	  background-color: #1E92FF;
+	}
+  
+  .cadas{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #cadastro {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .esque{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #esqueceu {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  #imagem {
+    width: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+      img {
+      margin-left: 30%;
+      margin-top: 0%;
+  }
+  
+  #cadastro:link {
+    color:#1E92FF;
+    font-weight: bold;
+    }
+    
+    #cadastro:hover  {
+      text-decoration: none; 
+      color: rgb(0, 98, 189);
+      
+      transition: 0.8s;
+    }
+    #esqueceu:link {
+      color:#1E92FF;
+      font-weight: bold;
+    }
+    
+    #esqueceu:hover  {
+      text-decoration: none; 
+      color: rgb(0, 98, 189);
+      
+      transition: 0.8s;
+    }
+    }
+@media (min-width: 1200px) {
+.login { 
+  width: 100%;
+    min-height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color: #1E92FF;
+    margin-top: 6%;
+    -webkit-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 28px -7px rgba(0,0,0,0.75);
+}
+
+#teste {
+  width: 1170px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-direction: row-reverse;
+}
+
+#limitador{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formulario {
+  width: 50%;
+  overflow: hidden;
+  padding: 0px 65px 40px 65px;
+}
+
+#senha {
+  height: 55px;
+  position: relative; 
+  border-width: 1.0px;
+  border-color: #1E92FF;
+  outline: none;
+  background-image: url(images/key.png);
+  background-repeat: no-repeat;
+  background-position: 2%;
+  font-weight: bold;
+  padding-left: 15%;
+  margin: 30px auto;
+  font: 14px sans-serif;
+  font-weight: bold;
+}
+
+#senha::placeholder {
+  color: #1E92FF;
+}
+
+#login {
+  height: 55px;
+  margin: 15px;
+  position: relative; 
+  border-width: 1.0px;
+  border-color: #1E92FF;
+  outline: none;
+  background-image: url(images/user.png);
+  background-repeat: no-repeat;
+  background-position: 2%;
+  font-weight: bold;
+  padding-left: 15%;
+  margin: 0 auto;
+  font: 14px sans-serif;
+  font-weight: bold;
+}
+
+#login::placeholder {
+  color: #1E92FF;
+}
+
+#logar {
+  width: 95%;
+  margin: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+  height: 50px;
+  border: 0.5px solid #1E92FF;
+  color: #1E92FF;
+  font: 14px sans-serif;
+  font-weight: bold;
+}
+#logar:hover{
+  color: #fff;
+  background-color: #1E92FF;
+}
+
+.cadas{
+  width: 100%;
+  text-align: center;
+}
+
+#cadastro {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.esque{
+  width: 100%;
+  text-align: center;
+}
+
+#esqueceu {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#imagem {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+img {
+margin-left: 30%;
+margin-top: 5%;
+}
+
+#cadastro:link {
+color:#1E92FF;
+font-weight: bold;
+}
+
+#cadastro:hover  {
+  text-decoration: none; 
+  color: rgb(0, 98, 189);
+  
+  transition: 0.8s;
+}
+#esqueceu:link {
+  color:#1E92FF;
+  font-weight: bold;
+}
+
+#esqueceu:hover  {
+  text-decoration: none; 
+  color: rgb(0, 98, 189);
+  
+  transition: 0.8s;
+}
+  }
+
+
+
+
+
+
+
+
